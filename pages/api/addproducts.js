@@ -1,6 +1,5 @@
 import connectDB from "../../middleware/mongoose";
 import Product from "../../modals/product";
-
 const handler = async (req, res) => {
   if (req.method === 'POST') {
     // Check if name, email or password is provided

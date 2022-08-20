@@ -22,7 +22,7 @@ const MyOrder = ({orders}) => {
     }else{
       fetchOrders()
   }
-  },[])
+  },[router])
  
 
   return (
